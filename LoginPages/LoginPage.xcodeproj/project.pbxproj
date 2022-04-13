@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A802BD3928069ABE0074BD54 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD3828069ABE0074BD54 /* Constants.swift */; };
+		A802BD3C28069D600074BD54 /* BodyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD3B28069D600074BD54 /* BodyImage.swift */; };
+		A802BD3E28069D8E0074BD54 /* LoginButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD3D28069D8E0074BD54 /* LoginButtons.swift */; };
+		A802BD4028069DC40074BD54 /* SignInTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD3F28069DC40074BD54 /* SignInTitle.swift */; };
+		A802BD4228069DEF0074BD54 /* SignInButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD4128069DEF0074BD54 /* SignInButtons.swift */; };
+		A802BD4428069E0C0074BD54 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD4328069E0C0074BD54 /* TextField.swift */; };
+		A802BD4628069E2D0074BD54 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD4528069E2D0074BD54 /* SignUpButton.swift */; };
+		A802BD4828069E460074BD54 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD4728069E460074BD54 /* Footer.swift */; };
 		FB822394277778AB00ADCF79 /* LoginPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB822393277778AB00ADCF79 /* LoginPageApp.swift */; };
 		FB822396277778AB00ADCF79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB822395277778AB00ADCF79 /* ContentView.swift */; };
 		FB822398277778AD00ADCF79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB822397277778AD00ADCF79 /* Assets.xcassets */; };
@@ -15,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A802BD3828069ABE0074BD54 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A802BD3B28069D600074BD54 /* BodyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyImage.swift; sourceTree = "<group>"; };
+		A802BD3D28069D8E0074BD54 /* LoginButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtons.swift; sourceTree = "<group>"; };
+		A802BD3F28069DC40074BD54 /* SignInTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTitle.swift; sourceTree = "<group>"; };
+		A802BD4128069DEF0074BD54 /* SignInButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButtons.swift; sourceTree = "<group>"; };
+		A802BD4328069E0C0074BD54 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		A802BD4528069E2D0074BD54 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		A802BD4728069E460074BD54 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
 		FB822390277778AB00ADCF79 /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB822393277778AB00ADCF79 /* LoginPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageApp.swift; sourceTree = "<group>"; };
 		FB822395277778AB00ADCF79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +50,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A802BD35280698A10074BD54 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FB822397277778AD00ADCF79 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A802BD36280698B80074BD54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A802BD3A28069C4F0074BD54 /* CommonView */,
+				FB8223A12777B48800ADCF79 /* body.swift */,
+				FB822395277778AB00ADCF79 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A802BD3728069AA30074BD54 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A802BD3828069ABE0074BD54 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A802BD3A28069C4F0074BD54 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				A802BD3B28069D600074BD54 /* BodyImage.swift */,
+				A802BD3D28069D8E0074BD54 /* LoginButtons.swift */,
+				A802BD3F28069DC40074BD54 /* SignInTitle.swift */,
+				A802BD4128069DEF0074BD54 /* SignInButtons.swift */,
+				A802BD4328069E0C0074BD54 /* TextField.swift */,
+				A802BD4528069E2D0074BD54 /* SignUpButton.swift */,
+				A802BD4728069E460074BD54 /* Footer.swift */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
 		FB822387277778AB00ADCF79 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				FB822393277778AB00ADCF79 /* LoginPageApp.swift */,
-				FB822395277778AB00ADCF79 /* ContentView.swift */,
-				FB8223A12777B48800ADCF79 /* body.swift */,
-				FB822397277778AD00ADCF79 /* Assets.xcassets */,
+				A802BD36280698B80074BD54 /* Views */,
+				A802BD3728069AA30074BD54 /* Helpers */,
+				A802BD35280698A10074BD54 /* Assets */,
 				FB822399277778AD00ADCF79 /* Preview Content */,
 			);
 			path = LoginPage;
@@ -143,6 +199,14 @@
 				FB822396277778AB00ADCF79 /* ContentView.swift in Sources */,
 				FB822394277778AB00ADCF79 /* LoginPageApp.swift in Sources */,
 				FB8223A22777B48800ADCF79 /* body.swift in Sources */,
+				A802BD3E28069D8E0074BD54 /* LoginButtons.swift in Sources */,
+				A802BD4028069DC40074BD54 /* SignInTitle.swift in Sources */,
+				A802BD4228069DEF0074BD54 /* SignInButtons.swift in Sources */,
+				A802BD4428069E0C0074BD54 /* TextField.swift in Sources */,
+				A802BD3928069ABE0074BD54 /* Constants.swift in Sources */,
+				A802BD3C28069D600074BD54 /* BodyImage.swift in Sources */,
+				A802BD4828069E460074BD54 /* Footer.swift in Sources */,
+				A802BD4628069E2D0074BD54 /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
