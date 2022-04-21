@@ -8,14 +8,21 @@
 import SwiftUI
 
 
-struct textField: View {
-    @State private var email: String = ""
 
+struct CustomTextField : View {
+    @Binding var values : String
+    @State var textTitle: String
+    var cellTitle : String
     var body: some View {
         VStack(spacing:25){
-            Text(Constants.SignInEmail).foregroundColor(Color.gray)
-            
-            TextField( "Work email address",text: $email).padding().background(Color.white.opacity(0.5).cornerRadius(26)).frame(width: UIScreen.main.bounds.width*0.85, height: UIScreen.main.bounds.width*0.065)
+            Text(cellTitle).foregroundColor(Color.gray)
+            TextField(textTitle,text: $values)
+                .padding()
+                .background(Color.gray.opacity(0.2))
+                .cornerRadius(26).frame(width: UIScreen.main.bounds.width*0.85, height: UIScreen.main.bounds.width*0.065) 
         }
     }
 }
+
+
+

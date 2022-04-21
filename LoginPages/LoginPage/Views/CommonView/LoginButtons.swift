@@ -8,27 +8,41 @@
 import SwiftUI
 
 struct loginButtons: View {
-    fileprivate func extractedFunc() -> Text {
-        return Text(Constants.GetStarted)
-    }
-    
     var body: some View {
+        
         VStack(spacing:15){
-            Button(action: {}){
-                extractedFunc().padding().foregroundColor(.white).frame(width:UIScreen.main.bounds.width*0.8).background(Color.red.opacity(0.6).cornerRadius(20))
+
+            NavigationLink {
+                ContentView()
+            } label: {
+                LoginButtonCommon(text: Constants.GetStarted, fgColor: .white, bgColor: .red.opacity(0.6))
             }
-            Button(action: {}){
-                Text(Constants.Login).padding().foregroundColor(.red.opacity(0.6)).frame(width:UIScreen.main.bounds.width*0.8).background(Color.white.cornerRadius(20)).shadow(color: .black, radius: 0.4, x: 0, y: 0)
+            NavigationLink{
+                LoginPageView()
             }
+        label:{
+            LoginButtonCommon(text: Constants.Login, fgColor: .red.opacity(0.6), bgColor: .white)
+                .cornerRadius(20)
+                .shadow(color: .black, radius: 1, x: 1, y: 1)
+        }
+          
             Spacer().frame(height:20)
             HStack{
-                Text("New around here?")
-                Text(Constants.SignIn).foregroundColor(.red.opacity(0.6)).onTapGesture {
-                    
+                Text(Constants.newAround)
+                NavigationLink {
+                    ContentView()
+                } label: {
+                    Text(Constants.SignIn).foregroundColor(.red.opacity(0.6))
                 }
+       
             }
             
             
         }
     }
 }
+
+
+
+
+

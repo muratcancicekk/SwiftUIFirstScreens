@@ -15,14 +15,41 @@
 		A802BD4428069E0C0074BD54 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD4328069E0C0074BD54 /* TextField.swift */; };
 		A802BD4628069E2D0074BD54 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD4528069E2D0074BD54 /* SignUpButton.swift */; };
 		A802BD4828069E460074BD54 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A802BD4728069E460074BD54 /* Footer.swift */; };
+		A815D2BD280D8D85003773F2 /* Translate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A815D2BC280D8D85003773F2 /* Translate.swift */; };
+		A82616D9280C7FA00021A5C2 /* Urban.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82616D8280C7FA00021A5C2 /* Urban.swift */; };
+		A82616DC280C80010021A5C2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82616DB280C80010021A5C2 /* ViewModel.swift */; };
+		A82616DE280C87600021A5C2 /* HomePageMainTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82616DD280C87600021A5C2 /* HomePageMainTitle.swift */; };
+		A84F388B280F210A00BAD076 /* HomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F388A280F210900BAD076 /* HomePageCell.swift */; };
+		A84F388D280F2E5400BAD076 /* HomePageHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84F388C280F2E5400BAD076 /* HomePageHeaderCell.swift */; };
+		A852994B281145DA00845384 /* FirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852994A281145DA00845384 /* FirebaseViewModel.swift */; };
+		A852994D28117AC700845384 /* HomePageMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852994C28117AC700845384 /* HomePageMenuCell.swift */; };
+		A852D6E3280DE2CB00D3378F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852D6E2280DE2CB00D3378F /* Network.swift */; };
+		A866F840280F3784000FF576 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866F83F280F3784000FF576 /* TabBarView.swift */; };
+		A866F843280F3A8F000FF576 /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866F842280F3A8F000FF576 /* FavView.swift */; };
+		A866F845280FE984000FF576 /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866F844280FE984000FF576 /* FirebaseModel.swift */; };
+		A866F848281007F8000FF576 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866F847281007F8000FF576 /* LoginPageView.swift */; };
+		A8D260FE28097E640064F3A4 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D260FD28097E640064F3A4 /* SignUpViewModel.swift */; };
+		A8D26100280BF99B0064F3A4 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D260FF280BF99B0064F3A4 /* HomePageView.swift */; };
+		A8D587062808085D003AC917 /* WebViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D587052808085D003AC917 /* WebViewScreen.swift */; };
+		A8D58708280808FE003AC917 /* LoginButtonCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D58707280808FE003AC917 /* LoginButtonCommon.swift */; };
+		A8D5870D2808094A003AC917 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5870C2808094A003AC917 /* Image+Extension.swift */; };
+		A8D5870F2808095E003AC917 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5870E2808095E003AC917 /* View+Extension.swift */; };
+		A8D5871228081DCF003AC917 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5871128081DCF003AC917 /* SignInViewModel.swift */; };
+		A8D5871A280838B8003AC917 /* SignIn+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D58719280838B8003AC917 /* SignIn+Extension.swift */; };
+		A8D58726280885D6003AC917 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8D58725280885D5003AC917 /* GoogleService-Info.plist */; };
+		A8D5872828088AD8003AC917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D5872728088AD8003AC917 /* AppDelegate.swift */; };
+		F2D1105A396D14E2EAD2B57C /* Pods_LoginPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB670BDB3B8CBB92E4DE9B0 /* Pods_LoginPage.framework */; };
 		FB822394277778AB00ADCF79 /* LoginPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB822393277778AB00ADCF79 /* LoginPageApp.swift */; };
-		FB822396277778AB00ADCF79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB822395277778AB00ADCF79 /* ContentView.swift */; };
+		FB822396277778AB00ADCF79 /* SignPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB822395277778AB00ADCF79 /* SignPageView.swift */; };
 		FB822398277778AD00ADCF79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB822397277778AD00ADCF79 /* Assets.xcassets */; };
 		FB82239B277778AD00ADCF79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB82239A277778AD00ADCF79 /* Preview Assets.xcassets */; };
-		FB8223A22777B48800ADCF79 /* body.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8223A12777B48800ADCF79 /* body.swift */; };
+		FB8223A22777B48800ADCF79 /* GetStarted.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8223A12777B48800ADCF79 /* GetStarted.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0451306CC5410B221E90E7F3 /* Pods-LoginPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPage.debug.xcconfig"; path = "Target Support Files/Pods-LoginPage/Pods-LoginPage.debug.xcconfig"; sourceTree = "<group>"; };
+		1BB670BDB3B8CBB92E4DE9B0 /* Pods_LoginPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		255A6E44E15DC78831E828FB /* Pods-LoginPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPage.release.xcconfig"; path = "Target Support Files/Pods-LoginPage/Pods-LoginPage.release.xcconfig"; sourceTree = "<group>"; };
 		A802BD3828069ABE0074BD54 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A802BD3B28069D600074BD54 /* BodyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyImage.swift; sourceTree = "<group>"; };
 		A802BD3D28069D8E0074BD54 /* LoginButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtons.swift; sourceTree = "<group>"; };
@@ -31,12 +58,36 @@
 		A802BD4328069E0C0074BD54 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		A802BD4528069E2D0074BD54 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
 		A802BD4728069E460074BD54 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		A815D2BC280D8D85003773F2 /* Translate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translate.swift; sourceTree = "<group>"; };
+		A82616D8280C7FA00021A5C2 /* Urban.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urban.swift; sourceTree = "<group>"; };
+		A82616DB280C80010021A5C2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A82616DD280C87600021A5C2 /* HomePageMainTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageMainTitle.swift; sourceTree = "<group>"; };
+		A84F388A280F210900BAD076 /* HomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCell.swift; sourceTree = "<group>"; };
+		A84F388C280F2E5400BAD076 /* HomePageHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageHeaderCell.swift; sourceTree = "<group>"; };
+		A852994A281145DA00845384 /* FirebaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewModel.swift; sourceTree = "<group>"; };
+		A852994C28117AC700845384 /* HomePageMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageMenuCell.swift; sourceTree = "<group>"; };
+		A852D6E2280DE2CB00D3378F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A866F83F280F3784000FF576 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		A866F842280F3A8F000FF576 /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+		A866F844280FE984000FF576 /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
+		A866F847281007F8000FF576 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
+		A8D260FD28097E640064F3A4 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		A8D260FF280BF99B0064F3A4 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		A8D587052808085D003AC917 /* WebViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewScreen.swift; sourceTree = "<group>"; };
+		A8D58707280808FE003AC917 /* LoginButtonCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonCommon.swift; sourceTree = "<group>"; };
+		A8D5870C2808094A003AC917 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		A8D5870E2808095E003AC917 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		A8D5871128081DCF003AC917 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		A8D58719280838B8003AC917 /* SignIn+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignIn+Extension.swift"; sourceTree = "<group>"; };
+		A8D5872228083C22003AC917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D58725280885D5003AC917 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8D5872728088AD8003AC917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB822390277778AB00ADCF79 /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB822393277778AB00ADCF79 /* LoginPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageApp.swift; sourceTree = "<group>"; };
-		FB822395277778AB00ADCF79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB822395277778AB00ADCF79 /* SignPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignPageView.swift; sourceTree = "<group>"; };
 		FB822397277778AD00ADCF79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB82239A277778AD00ADCF79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FB8223A12777B48800ADCF79 /* body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = body.swift; sourceTree = "<group>"; };
+		FB8223A12777B48800ADCF79 /* GetStarted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStarted.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,12 +95,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D1105A396D14E2EAD2B57C /* Pods_LoginPage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11DA723415429961F5DB5537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BB670BDB3B8CBB92E4DE9B0 /* Pods_LoginPage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F3EBFECAD790311B54467C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0451306CC5410B221E90E7F3 /* Pods-LoginPage.debug.xcconfig */,
+				255A6E44E15DC78831E828FB /* Pods-LoginPage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A802BD35280698A10074BD54 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,9 +130,13 @@
 		A802BD36280698B80074BD54 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A866F846281007EA000FF576 /* LoginPage */,
+				A866F841280F3A77000FF576 /* FavView */,
+				A866F83E280F3770000FF576 /* TabBarView */,
+				A82616D6280C7F4E0021A5C2 /* HomePage */,
+				A82616D5280C7E7E0021A5C2 /* SignPage */,
+				A82616D4280C7DC50021A5C2 /* GetStartedPage */,
 				A802BD3A28069C4F0074BD54 /* CommonView */,
-				FB8223A12777B48800ADCF79 /* body.swift */,
-				FB822395277778AB00ADCF79 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -71,6 +144,7 @@
 		A802BD3728069AA30074BD54 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A8D5870A2808092A003AC917 /* Extension */,
 				A802BD3828069ABE0074BD54 /* Constants.swift */,
 			);
 			path = Helpers;
@@ -86,8 +160,140 @@
 				A802BD4328069E0C0074BD54 /* TextField.swift */,
 				A802BD4528069E2D0074BD54 /* SignUpButton.swift */,
 				A802BD4728069E460074BD54 /* Footer.swift */,
+				A8D58707280808FE003AC917 /* LoginButtonCommon.swift */,
+				A82616DD280C87600021A5C2 /* HomePageMainTitle.swift */,
 			);
 			path = CommonView;
+			sourceTree = "<group>";
+		};
+		A82616D4280C7DC50021A5C2 /* GetStartedPage */ = {
+			isa = PBXGroup;
+			children = (
+				FB8223A12777B48800ADCF79 /* GetStarted.swift */,
+			);
+			path = GetStartedPage;
+			sourceTree = "<group>";
+		};
+		A82616D5280C7E7E0021A5C2 /* SignPage */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5871028081D78003AC917 /* ViewModel */,
+				FB822395277778AB00ADCF79 /* SignPageView.swift */,
+			);
+			path = SignPage;
+			sourceTree = "<group>";
+		};
+		A82616D6280C7F4E0021A5C2 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A82616DA280C7FF50021A5C2 /* ViewModel */,
+				A8D260FF280BF99B0064F3A4 /* HomePageView.swift */,
+				A84F388A280F210900BAD076 /* HomePageCell.swift */,
+				A84F388C280F2E5400BAD076 /* HomePageHeaderCell.swift */,
+				A852994C28117AC700845384 /* HomePageMenuCell.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A82616D7280C7F680021A5C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A82616D8280C7FA00021A5C2 /* Urban.swift */,
+				A815D2BC280D8D85003773F2 /* Translate.swift */,
+				A866F844280FE984000FF576 /* FirebaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A82616DA280C7FF50021A5C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A82616DB280C80010021A5C2 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8529949281145CD00845384 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A852994A281145DA00845384 /* FirebaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A852D6E1280DE2BD00D3378F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A852D6E2280DE2CB00D3378F /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A866F83E280F3770000FF576 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				A866F83F280F3784000FF576 /* TabBarView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		A866F841280F3A77000FF576 /* FavView */ = {
+			isa = PBXGroup;
+			children = (
+				A866F842280F3A8F000FF576 /* FavView.swift */,
+			);
+			path = FavView;
+			sourceTree = "<group>";
+		};
+		A866F846281007EA000FF576 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				A866F847281007F8000FF576 /* LoginPageView.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		A866F8492810398B000FF576 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5872728088AD8003AC917 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		A866F84A281039E1000FF576 /* UrbanDictionaryApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB822393277778AB00ADCF79 /* LoginPageApp.swift */,
+			);
+			path = UrbanDictionaryApp;
+			sourceTree = "<group>";
+		};
+		A8D5870428080845003AC917 /* UIKITComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A8D587052808085D003AC917 /* WebViewScreen.swift */,
+			);
+			path = UIKITComponents;
+			sourceTree = "<group>";
+		};
+		A8D5870A2808092A003AC917 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5870C2808094A003AC917 /* Image+Extension.swift */,
+				A8D5870E2808095E003AC917 /* View+Extension.swift */,
+				A8D58719280838B8003AC917 /* SignIn+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A8D5871028081D78003AC917 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5871128081DCF003AC917 /* SignInViewModel.swift */,
+				A8D260FD28097E640064F3A4 /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		FB822387277778AB00ADCF79 = {
@@ -95,6 +301,8 @@
 			children = (
 				FB822392277778AB00ADCF79 /* LoginPage */,
 				FB822391277778AB00ADCF79 /* Products */,
+				5F3EBFECAD790311B54467C0 /* Pods */,
+				11DA723415429961F5DB5537 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,8 +317,15 @@
 		FB822392277778AB00ADCF79 /* LoginPage */ = {
 			isa = PBXGroup;
 			children = (
-				FB822393277778AB00ADCF79 /* LoginPageApp.swift */,
+				A8529949281145CD00845384 /* ViewModel */,
+				A8D58725280885D5003AC917 /* GoogleService-Info.plist */,
+				A8D5872228083C22003AC917 /* Info.plist */,
+				A8D5870428080845003AC917 /* UIKITComponents */,
+				A82616D7280C7F680021A5C2 /* Model */,
+				A852D6E1280DE2BD00D3378F /* Network */,
 				A802BD36280698B80074BD54 /* Views */,
+				A866F8492810398B000FF576 /* Delegate */,
+				A866F84A281039E1000FF576 /* UrbanDictionaryApp */,
 				A802BD3728069AA30074BD54 /* Helpers */,
 				A802BD35280698A10074BD54 /* Assets */,
 				FB822399277778AD00ADCF79 /* Preview Content */,
@@ -133,15 +348,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB82239E277778AD00ADCF79 /* Build configuration list for PBXNativeTarget "LoginPage" */;
 			buildPhases = (
+				5313486FCE15866ED4E84D0E /* [CP] Check Pods Manifest.lock */,
 				FB82238C277778AB00ADCF79 /* Sources */,
 				FB82238D277778AB00ADCF79 /* Frameworks */,
 				FB82238E277778AB00ADCF79 /* Resources */,
+				E346124F1B689F8ADF571402 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = LoginPage;
+			packageProductDependencies = (
+			);
 			productName = LoginPage;
 			productReference = FB822390277778AB00ADCF79 /* LoginPage.app */;
 			productType = "com.apple.product-type.application";
@@ -170,6 +389,10 @@
 				Base,
 			);
 			mainGroup = FB822387277778AB00ADCF79;
+			packageReferences = (
+				A80D28E22808A5A5003C1409 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				A80D28E72808A67F003C1409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FB822391277778AB00ADCF79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -186,26 +409,91 @@
 			files = (
 				FB82239B277778AD00ADCF79 /* Preview Assets.xcassets in Resources */,
 				FB822398277778AD00ADCF79 /* Assets.xcassets in Resources */,
+				A8D58726280885D6003AC917 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5313486FCE15866ED4E84D0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginPage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E346124F1B689F8ADF571402 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginPage/Pods-LoginPage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginPage/Pods-LoginPage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginPage/Pods-LoginPage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB82238C277778AB00ADCF79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB822396277778AB00ADCF79 /* ContentView.swift in Sources */,
+				A866F845280FE984000FF576 /* FirebaseModel.swift in Sources */,
+				A866F843280F3A8F000FF576 /* FavView.swift in Sources */,
+				FB822396277778AB00ADCF79 /* SignPageView.swift in Sources */,
 				FB822394277778AB00ADCF79 /* LoginPageApp.swift in Sources */,
-				FB8223A22777B48800ADCF79 /* body.swift in Sources */,
+				FB8223A22777B48800ADCF79 /* GetStarted.swift in Sources */,
+				A8D587062808085D003AC917 /* WebViewScreen.swift in Sources */,
+				A82616DC280C80010021A5C2 /* ViewModel.swift in Sources */,
+				A866F848281007F8000FF576 /* LoginPageView.swift in Sources */,
+				A8D5871228081DCF003AC917 /* SignInViewModel.swift in Sources */,
+				A8D260FE28097E640064F3A4 /* SignUpViewModel.swift in Sources */,
+				A866F840280F3784000FF576 /* TabBarView.swift in Sources */,
 				A802BD3E28069D8E0074BD54 /* LoginButtons.swift in Sources */,
+				A82616D9280C7FA00021A5C2 /* Urban.swift in Sources */,
+				A8D5871A280838B8003AC917 /* SignIn+Extension.swift in Sources */,
 				A802BD4028069DC40074BD54 /* SignInTitle.swift in Sources */,
 				A802BD4228069DEF0074BD54 /* SignInButtons.swift in Sources */,
+				A8D5870F2808095E003AC917 /* View+Extension.swift in Sources */,
+				A852994B281145DA00845384 /* FirebaseViewModel.swift in Sources */,
+				A8D5870D2808094A003AC917 /* Image+Extension.swift in Sources */,
+				A815D2BD280D8D85003773F2 /* Translate.swift in Sources */,
+				A82616DE280C87600021A5C2 /* HomePageMainTitle.swift in Sources */,
+				A84F388B280F210A00BAD076 /* HomePageCell.swift in Sources */,
 				A802BD4428069E0C0074BD54 /* TextField.swift in Sources */,
+				A8D5872828088AD8003AC917 /* AppDelegate.swift in Sources */,
+				A8D26100280BF99B0064F3A4 /* HomePageView.swift in Sources */,
 				A802BD3928069ABE0074BD54 /* Constants.swift in Sources */,
+				A8D58708280808FE003AC917 /* LoginButtonCommon.swift in Sources */,
+				A852D6E3280DE2CB00D3378F /* Network.swift in Sources */,
 				A802BD3C28069D600074BD54 /* BodyImage.swift in Sources */,
 				A802BD4828069E460074BD54 /* Footer.swift in Sources */,
+				A84F388D280F2E5400BAD076 /* HomePageHeaderCell.swift in Sources */,
+				A852994D28117AC700845384 /* HomePageMenuCell.swift in Sources */,
 				A802BD4628069E2D0074BD54 /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,15 +619,17 @@
 		};
 		FB82239F277778AD00ADCF79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0451306CC5410B221E90E7F3 /* Pods-LoginPage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LoginPage/Preview Content\"";
-				DEVELOPMENT_TEAM = M4TKS3Q272;
+				DEVELOPMENT_TEAM = SV8VW89WSS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginPage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -361,15 +651,17 @@
 		};
 		FB8223A0277778AD00ADCF79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255A6E44E15DC78831E828FB /* Pods-LoginPage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LoginPage/Preview Content\"";
-				DEVELOPMENT_TEAM = M4TKS3Q272;
+				DEVELOPMENT_TEAM = SV8VW89WSS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginPage/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -411,6 +703,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A80D28E22808A5A5003C1409 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A80D28E72808A67F003C1409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = FB822388277778AB00ADCF79 /* Project object */;
 }

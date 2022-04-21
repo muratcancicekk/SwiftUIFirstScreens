@@ -9,11 +9,14 @@ import SwiftUI
 
 
 struct footer: View {
+    @Binding var showWebView : Bool
     var body: some View {
         VStack(){
-            Text("You are completely safe")
-            Text(Constants.ReadTerms).foregroundColor(.red.opacity(0.7)).onTapGesture {
-            }
+            Text(Constants.complety)
+            Text(Constants.ReadTerms).foregroundColor(.red.opacity(0.7))
+                .onTapGesture {
+                    showWebView.toggle()
+                }
         }
     }
 }

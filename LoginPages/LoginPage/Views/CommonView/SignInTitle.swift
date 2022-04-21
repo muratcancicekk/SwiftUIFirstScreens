@@ -10,6 +10,8 @@ import SwiftUI
 
 struct signInTitle: View {
     var body: some View {
-        Text("Sign in").font(.system(size: UIScreen.main.bounds.width*0.09)).fontWeight(Font.Weight.bold)
+        Text(Constants.SignIn)
+            .font(.system(size: UIScreen.main.bounds.width*0.09))
+            .fontWeight(Font.Weight.bold)
     }
 }

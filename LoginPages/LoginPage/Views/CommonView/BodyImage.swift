@@ -9,6 +9,6 @@ import SwiftUI
 
 struct bodyImage: View {
     var body: some View {
-        Image("onboard")
+        Image(Image.onBoard)
     }
 }
