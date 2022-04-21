@@ -1,8 +1,17 @@
-# SwiftUIFirstScreens
+# Urban Dictionary APP
+
+## Kullandıklarım
+
++ WebKit
++ Firebase
++ GoogleSignIn
+
+## Kullandığım Api'ler
++ https://rapidapi.com/community/api/urban-dictionary/
++ https://rapidapi.com/googlecloud/api/google-translate1/
 
 
-
-# Uygulamanın Giriş Sayfaları
+## -------------------------------------
 
 <img width="260" alt="Ekran Resmi 2021-12-26 13 31 40" src="https://user-images.githubusercontent.com/62101026/147405722-cadf45d5-c8be-4c2d-9438-f10e7c45df41.png">
 <img width="260" alt="Ekran Resmi 2021-12-26 13 31 47" src="https://user-images.githubusercontent.com/62101026/147405725-dad1509b-1717-4bb1-9487-53daabb0db96.png">
@@ -28,3 +37,9 @@ Favori iconuna tıklayarak beğendiğimiz yazıları kaydedebiliriz.
 ![Screen Shot 2022-04-21 at 17 05 26](https://user-images.githubusercontent.com/62101026/164477013-57c42df7-7592-4fef-9f29-09afc1a88dbf.png)
 
 Favori sayfasında ise daha önceden kaydettiklerimi görebiliriz eğer istersek tekrardan favori butonuna tıklayarak favorilerden kaldırabiliriz.
+
+## Firebase'de kayıtlı kullanıcılar 
+
+![Screen Shot 2022-04-21 at 17 26 10](https://user-images.githubusercontent.com/62101026/164480176-e3dd9355-dec3-4e28-be38-916e3a563d27.png)
+
+
